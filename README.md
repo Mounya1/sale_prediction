@@ -40,14 +40,6 @@ This dataset provides a comprehensive view of global sales trends and is essenti
 
 ---
 
-##  Project Flow Diagram
-
-
-![Project Flow Diagram](images/flow_diagram.png)
-
-
----
-
 ##  Tools & Technologies
 
 * **Apache Kafka** – Real-time data ingestion
