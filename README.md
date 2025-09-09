@@ -1,7 +1,7 @@
 
 # Sales Revenue Prediction Pipeline
 
-## 📌 Introduction
+## Introduction
 
 In the modern e-commerce landscape, businesses generate massive volumes of data daily. To leverage this data, they need efficient and scalable pipelines for real-time data processing and machine learning.
 
@@ -11,7 +11,7 @@ The integration of real-time data adds a layer of business relevance, helping bu
 
 ---
 
-## 🚩 Problem Description
+##  Problem Description
 
 The primary problem addressed in this project is the **need for accurate revenue prediction using real-time data streams**.
 
@@ -25,7 +25,7 @@ E-commerce platforms face challenges due to high data volumes and delays in deci
 
 ---
 
-## 📊 Dataset Description
+##  Dataset Description
 
 The dataset comprises **global sales data** with variables such as:
 
@@ -40,13 +40,13 @@ This dataset provides a comprehensive view of global sales trends and is essenti
 
 ---
 
-## 🔄 Project Flow Diagram
+##  Project Flow Diagram
 
 *(Insert Flow Diagram here — e.g., PNG or Mermaid diagram)*
 
 ---
 
-## ⚙️ Tools & Technologies
+##  Tools & Technologies
 
 * **Apache Kafka** – Real-time data ingestion
 * **Apache Spark (Streaming + MLlib)** – Data processing & machine learning
@@ -56,7 +56,7 @@ This dataset provides a comprehensive view of global sales trends and is essenti
 
 ---
 
-## 🛠 Methodology
+##  Methodology
 
 ### 1. Data Division
 
@@ -98,16 +98,16 @@ This dataset provides a comprehensive view of global sales trends and is essenti
 
 ---
 
-## 📈 Results
+##  Results
 
-### 🔹 Total Revenue Model (GBT Regression)
+###  Total Revenue Model (GBT Regression)
 
 * **RMSE:** `69451.15`
 * **Performance:** Captured short- & long-term revenue trends.
 * **Accuracy:** Outperformed traditional forecasting methods.
 * **Scalability:** Robust integration of historical + real-time streams.
 
-### 🔹 Units Sold Model (GBT Regression)
+###  Units Sold Model (GBT Regression)
 
 * **RMSE:** `393.85`
 * **Performance:** Reliable unit sales prediction across diverse datasets.
@@ -115,7 +115,7 @@ This dataset provides a comprehensive view of global sales trends and is essenti
 
 ---
 
-## 💡 Discussion
+##  Discussion
 
 **Challenges:**
 
@@ -132,33 +132,9 @@ This dataset provides a comprehensive view of global sales trends and is essenti
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 
 This project demonstrates a **scalable sales prediction system** using **cloud computing & machine learning**.
 
 By combining **historical and real-time data**, we built a robust pipeline that enables accurate revenue forecasting. Integration of **Kafka, Spark Streaming, and Airflow** ensures efficiency, scalability, and reliability in e-commerce data-driven decision-making.
 
----
-
-## 📚 References
-
-* Spark, Kafka, GCP Documentation
-* Friedman, J. H. (2001). *Greedy function approximation: a gradient boosting machine.* Annals of statistics.
-* Zaharia, M., et al. (2016). *Apache Spark: A Unified Engine for Big Data Processing.*
-* Gama, J., & Rodrigues, P. P. (2007). *Stream-based methods for unsupervised online learning.*
-
----
-
-## 👥 Team Contributions
-
-* **Sashank Talakola:** Built Kafka + Spark Streaming pipeline & real-time validation (Airflow).
-* **Mounya Inampudi:** Focused on ML model selection & tuning, implemented GBT for revenue prediction.
-* **Junaid Ahmed Mohammed:** Handled data preprocessing, feature engineering, and report writing.
-
----
-
-✨ *This project showcases how real-time big data pipelines combined with advanced ML models can transform e-commerce forecasting.*
-
----
-
-Do you want me to also create a **Mermaid flow diagram** (so GitHub renders it directly) for your pipeline, or should I format it to expect an uploaded PNG instead?
