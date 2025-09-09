@@ -42,7 +42,9 @@ This dataset provides a comprehensive view of global sales trends and is essenti
 
 ##  Project Flow Diagram
 
-*(Insert Flow Diagram here — e.g., PNG or Mermaid diagram)*
+
+![Project Flow Diagram](images/flow_diagram.png)
+
 
 ---
 
